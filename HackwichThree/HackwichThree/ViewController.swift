@@ -31,4 +31,28 @@ class ViewController: UIViewController {
         }
 }
 
+    var thirdString = "Red"
+    var fourthString = "Blue"
+    
+    @IBOutlet weak var changeColorLabel: UILabel!
+    
+    var fifthString = "The background will turn green"
+    var sixthString = "The label will turn green"
+    
+    @IBAction func buttonPressed(_ sender: Any) {
+        if fifthString == "The background will turn green"
+        {
+            self.view.backgroundColor = UIColor.green
+            
+        }else{
+        print("I completed both problem sets")
+            
+        }
+    }
 }
+
+
+    
+
+    
+
